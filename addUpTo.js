@@ -1,10 +1,9 @@
 function addUpTo(n) {
   let total = 0;
-  for (let i = 0; i < n.length; i++) {
-    total += n[i];
+  for (let i = 1; i <= n; i++) {
+    total += i;
   }
   return total;
 }
 
-const numbers = [1, 2, 3, 4, 5];
-console.log(addUpTo(numbers)); // Output: 15
+console.log(addUpTo(10000000000));
